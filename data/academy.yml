@@ -1,0 +1,213 @@
+# 白鹿洞书院数据
+# 中国四大书院之首，朱熹讲学之地
+
+academy_info:
+  name: 白鹿洞书院
+  location: 庐山五老峰南麓
+  established: "940"
+  founder: 李渤
+  peak_period: 南宋（朱熹复兴）
+  status: 世界文化遗产组成部分
+  description: |
+    白鹿洞书院位于江西庐山五老峰南麓，是中国古代四大书院之首。
+    始建于南唐升元年间（940 年），距今已有 1000 多年历史。
+    南宋著名理学家、教育家朱熹曾在此讲学，并制定《白鹿洞书院揭示》，
+    成为后世书院教育的楷模。
+
+history:
+  - period: 南唐
+    year: "940"
+    event: 始建
+    description: 李渤隐居读书，养白鹿自娱，称白鹿先生，故名白鹿洞。
+
+  - period: 北宋
+    year: "978"
+    event: 官方认可
+    description: 宋太宗赐国子监印本九经，书院声名大振。
+
+  - period: 南宋
+    year: "1179"
+    event: 朱熹复兴
+    description: 朱熹任南康知军，重建书院，制定学规，亲自讲学。
+
+  - period: 明代
+    year: "1368-1644"
+    event: 持续发展
+    description: 明代书院继续发展，王阳明曾到此讲学。
+
+  - period: 清代
+    year: "1644-1911"
+    event: 官学化
+    description: 书院逐渐官学化，成为科举预备机构。
+
+  - period: 近代
+    year: "1901"
+    event: 改制
+    description: 清政府下令书院改学堂，白鹿洞书院改为江西高等学堂。
+
+  - period: 现代
+    year: "1988"
+    event: 修复开放
+    description: 大规模修复，作为文化遗址对外开放。
+
+  - period: 当代
+    year: "1996"
+    event: 世界遗产
+    description: 作为"庐山国家公园"组成部分列入世界遗产名录。
+
+buildings:
+  - name: 棂星门
+    type: 大门
+    description: 书院正门，取"棂星"为名，寓意人才辈出。
+    image_url: ""
+
+  - name: 大成殿
+    type: 主殿
+    description: 供奉孔子及四配十二哲，是书院最重要的建筑。
+    image_url: ""
+
+  - name: 御书阁
+    type: 藏书楼
+    description: 收藏皇帝御赐书籍和经典著作。
+    image_url: ""
+
+  - name: 明伦堂
+    type: 讲堂
+    description: 朱熹讲学的主要场所，"明伦"意为明人伦之道。
+    image_url: ""
+
+  - name: 白鹿洞
+    type: 洞穴
+    description: 李渤当年读书之处，洞内有石桌石凳。
+    image_url: ""
+
+  - name: 思贤台
+    type: 纪念建筑
+    description: 纪念历代书院山长和著名学者。
+    image_url: ""
+
+  - name: 独对亭
+    type: 亭阁
+    description: 朱熹当年独自思考问题的地方。
+    image_url: ""
+
+  - name: 碑廊
+    type: 碑刻
+    description: 收藏历代碑刻，包括朱熹手迹等珍贵文物。
+    image_url: ""
+
+famous_persons:
+  - name: 李渤
+    role: 创始人
+    dynasty: 唐
+    contribution: 隐居庐山，创建读书堂，养鹿自娱。
+    story: |
+      李渤，唐代洛阳人，隐居庐山五老峰下，读书其中，畜一白鹿，
+      故名白鹿洞。后任江州刺史，在此建台榭，招学者讲习。
+
+  - name: 朱熹
+    role: 中兴之主
+    dynasty: 南宋
+    contribution: 重建书院，制定学规，亲自讲学，使书院达到鼎盛。
+    story: |
+      朱熹任南康知军时，见白鹿洞书院荒废，深感惋惜，
+      遂上书朝廷，获准重建。他亲自制定《白鹿洞书院揭示》，
+      成为后世书院教育的楷模。
+
+  - name: 王阳明
+    role: 讲学名师
+    dynasty: 明
+    contribution: 多次到书院讲学，传播心学思想。
+    story: |
+      王阳明曾被贬贵州，途经庐山时到白鹿洞书院讲学，
+      传播"致良知"学说，影响深远。
+
+  - name: 陆九渊
+    role: 讲学名师
+    dynasty: 南宋
+    contribution: 与朱熹辩论"鹅湖之会"，后到书院讲学。
+    story: |
+      陆九渊与朱熹虽学术观点不同，但都曾在白鹿洞书院讲学，
+      体现了书院兼容并包的学术传统。
+
+  - name: 顾宪成
+    role: 山长
+    dynasty: 明
+    contribution: 曾任书院山长，培养众多学生。
+    story: |
+      顾宪成是明末著名学者，主持白鹿洞书院期间，
+      培养了大批优秀人才。
+
+school_rules:
+  title: 白鹿洞书院揭示（学规）
+  author: 朱熹
+  year: "1179"
+  content:
+    - category: 五教之目
+      text: 父子有亲，君臣有义，夫妇有别，长幼有序，朋友有信。
+
+    - category: 为学之序
+      text: 博学之，审问之，慎思之，明辨之，笃行之。
+
+    - category: 修身之要
+      text: 言忠信，行笃敬，惩忿窒欲，迁善改过。
+
+    - category: 处事之要
+      text: 正其义不谋其利，明其道不计其功。
+
+    - category: 接物之要
+      text: 己所不欲，勿施于人，行有不得，反求诸己。
+
+  significance: |
+    《白鹿洞书院揭示》是中国古代教育史上最重要的学规之一，
+    不仅影响了后世书院教育，还传播到朝鲜、日本、越南等
+    东亚国家，成为儒家教育思想的经典文献。
+
+cultural_relics:
+  - name: 朱熹手植丹桂
+    type: 植物
+    description: 相传为朱熹亲手种植的桂花树，已有 800 多年历史。
+    status: 尚存
+
+  - name: 朱熹画像碑
+    type: 碑刻
+    description: 刻有朱熹画像及生平简介。
+    status: 保存完好
+
+  - name: 白鹿洞书院记
+    type: 碑刻
+    description: 记载书院历史的石碑。
+    status: 保存完好
+
+  - name: 御书楼匾额
+    type: 匾额
+    description: 皇帝御赐的匾额。
+    status: 保存完好
+
+visiting_info:
+  open_time: 08:30-17:30
+  ticket_price: 40 元
+  best_season: 春秋两季
+  traffic: |
+    从庐山牯岭镇乘车至海会镇，步行约 20 分钟可达。
+    或从庐山南门乘索道至海会，步行可达。
+  tips:
+    - 书院内保持安静，尊重文化氛围
+    - 可请导游讲解，深入了解历史文化
+    - 建议游览时间 1-2 小时
+    - 可与秀峰、三叠泉等景点联游
+
+related_poems:
+  - title: 白鹿洞书院
+    author: 朱熹
+    dynasty: 南宋
+    content: |
+      半亩方塘一鉴开，天光云影共徘徊。
+      问渠那得清如许，为有源头活水来。
+
+  - title: 白鹿洞怀朱子
+    author: 王阳明
+    dynasty: 明
+    content: |
+      白鹿洞中寻旧踪，朱子遗风万世崇。
+      格物致知传千古，理学源头在此中。

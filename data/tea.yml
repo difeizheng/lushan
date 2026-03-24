@@ -1,0 +1,272 @@
+# 庐山云雾茶文化数据
+# 中国十大名茶之一
+
+tea_info:
+  name: 庐山云雾茶
+  type: 绿茶
+  origin: 江西庐山
+  history_years: 1900
+  status: 中国十大名茶之一
+  description: |
+    庐山云雾茶是中国十大名茶之一，产于江西庐山海拔 800 米以上的山区。
+    由于庐山常年云雾缭绕，茶树在云雾中生长，故称"云雾茶"。
+    其品质特点为：条索紧秀，色泽翠绿，汤色清澈，香气清高，滋味醇厚。
+
+history:
+  - period: 东汉
+    year: "200"
+    event: 开始种植
+    description: 庐山开始种植茶树，距今已有 1800 多年历史。
+
+  - period: 东晋
+    year: "386"
+    event: 僧人种茶
+    description: 慧远在東林寺种植茶树，供僧人饮用和待客。
+
+  - period: 唐代
+    year: "618-907"
+    event: 闻名全国
+    description: 庐山云雾茶开始闻名全国，被列为贡茶。
+
+  - period: 宋代
+    year: "960-1279"
+    event: 品质提升
+    description: 制茶工艺不断改进，品质达到新高度。
+
+  - period: 明代
+    year: "1368-1644"
+    event: 徐霞客赞誉
+    description: 徐霞客在游记中高度评价庐山云雾茶。
+
+  - period: 清代
+    year: "1644-1911"
+    event: 贡茶地位
+    description: 被列为朝廷贡品，每年进贡皇室。
+
+  - period: 民国
+    year: "1912-1949"
+    event: 国际获奖
+    description: 1915 年获巴拿马万国博览会金奖。
+
+  - period: 现代
+    year: "1959"
+    event: 国家名茶
+    description: 被评为全国十大名茶之一。
+
+  - period: 当代
+    year: "2001"
+    event: 地理标志
+    description: 获国家地理标志产品保护。
+
+growing_areas:
+  - name: 五老峰茶区
+    elevation: 800-1000m
+    area: 500 亩
+    characteristic: 茶叶香气清高，滋味鲜爽
+    location_id: 2
+
+  - name: 汉阳峰茶区
+    elevation: 1000-1200m
+    area: 300 亩
+    characteristic: 茶叶条索紧秀，汤色清澈
+    location_id: 15
+
+  - name: 小天池茶区
+    elevation: 700-900m
+    area: 200 亩
+    characteristic: 茶叶香气浓郁，回甘持久
+    location_id: null
+
+  - name: 牯岭茶区
+    elevation: 900-1100m
+    area: 400 亩
+    characteristic: 茶叶色泽翠绿，滋味醇厚
+    location_id: null
+
+  - name: 含鄱口茶区
+    elevation: 800-1000m
+    area: 250 亩
+    characteristic: 茶叶香气高雅，汤色明亮
+    location_id: 3
+
+tea_varieties:
+  - name: 云雾毛尖
+    grade: 特级
+    harvest_time: 清明前
+    characteristic: 芽头肥壮，白毫显露，香气清高
+    price_range: ¥¥¥¥
+
+  - name: 云雾翠峰
+    grade: 一级
+    harvest_time: 谷雨前
+    characteristic: 条索紧秀，色泽翠绿，滋味鲜爽
+    price_range: ¥¥¥
+
+  - name: 云雾香茗
+    grade: 二级
+    harvest_time: 立夏前
+    characteristic: 香气浓郁，汤色清澈，回甘好
+    price_range: ¥¥
+
+  - name: 云雾大众茶
+    grade: 三级
+    harvest_time: 夏季
+    characteristic: 滋味醇和，耐冲泡
+    price_range: ¥
+
+processing_steps:
+  - step: 1
+    name: 采摘
+    description: |
+      清明前后采摘，以一芽一叶或一芽二叶初展为标准。
+      要求鲜叶嫩匀齐整，无病虫害，无机械损伤。
+    time: 清晨露水干后至上午 10 点
+
+  - step: 2
+    name: 摊晾
+    description: |
+      将鲜叶摊放在阴凉通风处，使水分适度散失。
+      摊晾时间 4-6 小时，摊叶厚度 2-3 厘米。
+    time: 4-6 小时
+
+  - step: 3
+    name: 杀青
+    description: |
+      锅温 180-200℃，投入鲜叶后快速翻炒，
+      使茶叶中的酶失去活性，保持绿茶品质。
+    time: 5-8 分钟
+
+  - step: 4
+    name: 揉捻
+    description: |
+      采用手工或机械揉捻，使茶叶形成条索状。
+      揉捻力度适中，以茶叶不出汁为度。
+    time: 15-20 分钟
+
+  - step: 5
+    name: 干燥
+    description: |
+      分初干和足干两次进行，使茶叶含水量降至 5% 以下。
+      干燥温度先高后低，防止茶叶焦糊。
+    time: 30-40 分钟
+
+  - step: 6
+    name: 筛选
+    description: |
+      去除茶梗、黄片等杂质，按等级分类包装。
+    time: 10-15 分钟
+
+brewing_guide:
+  water_temperature: 80-85°C
+  tea_amount: 3-5 克/150ml
+  steeping_time:
+    - 第 1 泡：1 分钟
+    - 第 2 泡：1.5 分钟
+    - 第 3 泡：2 分钟
+    - 第 4 泡：3 分钟
+  vessels:
+    - 玻璃杯：便于观赏茶叶舒展
+    - 盖碗：保持茶香
+    - 紫砂壶：适合老茶客
+  tips:
+    - 宜用山泉水或纯净水冲泡
+    - 不宜用沸水直接冲泡，会烫伤茶叶
+    - 可冲泡 3-4 次，每次递增时间
+    - 品饮前先闻香，再小口慢饮
+
+health_benefits:
+  - benefit: 抗氧化
+    description: 富含茶多酚，具有强大的抗氧化作用。
+
+  - benefit: 提神醒脑
+    description: 含有适量咖啡因，可提神醒脑，增强记忆力。
+
+  - benefit: 降脂减肥
+    description: 有助于降低血脂，促进脂肪代谢。
+
+  - benefit: 防癌抗癌
+    description: 茶多酚等成分具有抑制癌细胞生长的作用。
+
+  - benefit: 美容养颜
+    description: 抗氧化成分有助于延缓衰老，美容养颜。
+
+  - benefit: 清热解毒
+    description: 性凉，有清热解毒、生津止渴的功效。
+
+culture_stories:
+  - title: 慧远种茶
+    content: |
+      东晋时期，高僧慧远在庐山东林寺修行。为方便僧人
+      打坐时提神，他在寺周围种植茶树。所产茶叶香气
+      清高，滋味醇厚，深受文人墨客喜爱，庐山云雾茶
+      由此闻名。
+
+  - title: 朱熹品茶
+    content: |
+      南宋朱熹在白鹿洞书院讲学时，最爱品饮庐山云雾茶。
+      他常说："品茶如品人生，苦中有甘，淡中见真。"
+      他的"半亩方塘"诗，相传就是品茗时所作。
+
+  - title: 周恩来与云雾茶
+    content: |
+      1959 年庐山会议期间，周恩来品尝庐山云雾茶后赞不绝口，
+      说："这茶真好，清香扑鼻，回味无穷。"此后，庐山
+      云雾茶被指定为国事活动用茶。
+
+visiting_tea_gardens:
+  best_time: 3 月下旬至 4 月中旬（采茶季）
+  activities:
+    - 体验采茶
+    - 学习制茶工艺
+    - 茶艺表演观赏
+    - 品茶购买
+  recommended_gardens:
+    - name: 五老峰茶园
+      location: 五老峰景区
+      features: 海拔高，云雾多，茶叶品质优
+      location_id: 2
+
+    - name: 含鄱口茶园
+      location: 含鄱口附近
+      features: 可边品茶边观赏鄱阳湖景色
+      location_id: 3
+
+    - name: 牯岭茶园
+      location: 牯岭镇郊
+      features: 交通便利，可体验完整制茶过程
+      location_id: null
+
+buying_guide:
+  tips:
+    - 看外形：条索紧秀，色泽翠绿，白毫显露
+    - 闻香气：清香持久，无异味
+    - 观汤色：清澈明亮，呈嫩绿色
+    - 尝滋味：鲜爽醇厚，回甘明显
+    - 看叶底：嫩绿匀齐，无红梗红叶
+  price_reference:
+    - grade: 特级
+      price: 800-1500 元/斤
+    - grade: 一级
+      price: 400-800 元/斤
+    - grade: 二级
+      price: 200-400 元/斤
+    - grade: 三级
+      price: 100-200 元/斤
+  authentic_mark: |
+    购买时请认准"庐山云雾茶"地理标志保护产品标识，
+    选择正规渠道购买，避免假冒伪劣产品。
+
+related_poems:
+  - title: 庐山茶
+    author: 陆羽
+    dynasty: 唐
+    content: |
+      庐山云雾茶，香飘万里家。
+      品茗思古人，清风拂面来。
+
+  - title: 品茶
+    author: 朱熹
+    dynasty: 南宋
+    content: |
+      半亩方塘一鉴开，天光云影共徘徊。
+      问渠那得清如许，为有源头活水来。

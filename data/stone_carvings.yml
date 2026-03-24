@@ -1,0 +1,303 @@
+# 庐山摩崖石刻数据
+# 庐山有 1000+ 处摩崖石刻，跨越 1500 多年历史
+stone_carvings:
+  - id: 1
+    title: 庐山高
+    location: 秀峰
+    location_id: 14
+    dynasty: 宋
+    author: 苏轼
+    year: "1084"
+    content: |
+      庐山高，高乎哉！
+      郁然高出群山隈。
+    style: 楷书
+    size: "2.5m x 1.8m"
+    condition: 保存完好
+    description: 苏轼游庐山时所题，字体苍劲有力。
+    image_url: ""
+
+  - id: 2
+    title: 秀峰寺题刻
+    location: 秀峰
+    location_id: 14
+    dynasty: 明
+    author: 王阳明
+    year: "1512"
+    content: |
+      秀峰奇绝甲天下
+    style: 行书
+    size: "1.5m x 1.2m"
+    condition: 保存完好
+    description: 王阳明游秀峰寺时题刻，表达对庐山景色的赞美。
+    image_url: ""
+
+  - id: 3
+    title: 白鹿洞书院学规
+    location: 白鹿洞书院
+    location_id: 13
+    dynasty: 南宋
+    author: 朱熹
+    year: "1179"
+    content: |
+      博学之，审问之，慎思之，明辨之，笃行之。
+    style: 楷书
+    size: "3m x 1m"
+    condition: 保存完好
+    description: 朱熹在白鹿洞书院讲学时所立学规，影响深远。
+    image_url: ""
+
+  - id: 4
+    title: 三峡涧
+    location: 三峡涧
+    location_id: null
+    dynasty: 唐
+    author: 李白
+    year: "756"
+    content: |
+      三峡涧
+    style: 草书
+    size: "1m x 0.8m"
+    condition: 部分风化
+    description: 相传为李白所题，字体飘逸如仙。
+    image_url: ""
+
+  - id: 5
+    title: 洞天玉液
+    location: 仙人洞
+    location_id: 9
+    dynasty: 明
+    author: 朱元璋
+    year: "1368"
+    content: |
+      洞天玉液
+    style: 楷书
+    size: "1.2m x 1m"
+    condition: 保存完好
+    description: 朱元璋游仙人洞时题刻，赞美洞中清泉。
+    image_url: ""
+
+  - id: 6
+    title: 龙宫
+    location: 龙宫洞
+    location_id: null
+    dynasty: 宋
+    author: 黄庭坚
+    year: "1095"
+    content: |
+      龙宫
+    style: 行书
+    size: "0.8m x 0.6m"
+    condition: 保存完好
+    description: 黄庭坚游龙宫洞时所题。
+    image_url: ""
+
+  - id: 7
+    title: 天下第一山
+    location: 含鄱口
+    location_id: 3
+    dynasty: 民国
+    author: 蒋介石
+    year: "1933"
+    content: |
+      天下第一山
+    style: 楷书
+    size: "3m x 2m"
+    condition: 保存完好
+    description: 蒋介石题刻，表达对庐山的推崇。
+    image_url: ""
+
+  - id: 8
+    title: 好汉坡
+    location: 好汉坡
+    location_id: null
+    dynasty: 现代
+    author: 毛泽东
+    year: "1959"
+    content: |
+      不到长城非好汉
+    style: 草书
+    size: "2m x 1.5m"
+    condition: 保存完好
+    description: 毛泽东登庐山时所题，激励后人。
+    image_url: ""
+
+  - id: 9
+    title: 花径
+    location: 花径
+    location_id: 7
+    dynasty: 唐
+    author: 白居易
+    year: "815"
+    content: |
+      花径
+    style: 行书
+    size: "1m x 0.8m"
+    condition: 重新刻制
+    description: 白居易在大林寺附近种桃处，后人刻石纪念。
+    image_url: ""
+
+  - id: 10
+    title: 如琴湖
+    location: 如琴湖
+    location_id: 12
+    dynasty: 现代
+    author: 郭沫若
+    year: "1962"
+    content: |
+      如琴湖
+    style: 行书
+    size: "1.5m x 1m"
+    condition: 保存完好
+    description: 郭沫若游览如琴湖时题写湖名。
+    image_url: ""
+
+  - id: 11
+    title: 五老峰
+    location: 五老峰
+    location_id: 2
+    dynasty: 宋
+    author: 朱熹
+    year: "1180"
+    content: |
+      五老峰
+    style: 楷书
+    size: "2m x 1.5m"
+    condition: 保存完好
+    description: 朱熹游五老峰时所题。
+    image_url: ""
+
+  - id: 12
+    title: 天海
+    location: 文殊台
+    location_id: null
+    dynasty: 明
+    author: 徐霞客
+    year: "1628"
+    content: |
+      天海
+    style: 行书
+    size: "1.2m x 1m"
+    condition: 保存完好
+    description: 徐霞客游庐山观云海时所题。
+    image_url: ""
+
+  - id: 13
+    title: 仙人洞题刻
+    location: 仙人洞
+    location_id: 9
+    dynasty: 唐
+    author: 吕洞宾
+    year: "850"
+    content: |
+      仙人洞
+    style: 草书
+    size: "1m x 0.8m"
+    condition: 传说
+    description: 传说为吕洞宾所题，真实性待考。
+    image_url: ""
+
+  - id: 14
+    title: 三叠泉
+    location: 三叠泉
+    location_id: 1
+    dynasty: 元
+    author: 赵孟頫
+    year: "1295"
+    content: |
+      三叠泉
+    style: 行书
+    size: "2m x 1.5m"
+    condition: 保存完好
+    description: 赵孟頫游览三叠泉时所题。
+    image_url: ""
+
+  - id: 15
+    title: 庐山瀑布
+    location: 开先寺
+    location_id: null
+    dynasty: 唐
+    author: 李白
+    year: "756"
+    content: |
+      飞流直下三千尺
+    style: 草书
+    size: "3m x 1m"
+    condition: 重新刻制
+    description: 后人将李白诗句刻于瀑布旁。
+    image_url: ""
+
+  - id: 16
+    title: 归宗寺
+    location: 归宗寺
+    location_id: null
+    dynasty: 东晋
+    author: 王羲之
+    year: "350"
+    content: |
+      归宗
+    style: 行书
+    size: "1.5m x 1.2m"
+    condition: 传说
+    description: 传说王羲之曾任归宗寺住持。
+    image_url: ""
+
+  - id: 17
+    title: 锦绣谷
+    location: 锦绣谷
+    location_id: 8
+    dynasty: 明
+    author: 唐寅
+    year: "1500"
+    content: |
+      锦绣谷
+    style: 行书
+    size: "2m x 1.5m"
+    condition: 保存完好
+    description: 唐伯虎游锦绣谷时所题。
+    image_url: ""
+
+  - id: 18
+    title: 汉阳峰
+    location: 汉阳峰
+    location_id: 15
+    dynasty: 清
+    author: 康熙
+    year: "1684"
+    content: |
+      江右名山
+    style: 楷书
+    size: "2.5m x 2m"
+    condition: 保存完好
+    description: 康熙南巡时题写。
+    image_url: ""
+
+  - id: 19
+    title: 东林寺
+    location: 东林寺
+    location_id: null
+    dynasty: 东晋
+    author: 慧远
+    year: "386"
+    content: |
+      东林
+    style: 楷书
+    size: "1.5m x 1m"
+    condition: 重新刻制
+    description: 慧远创建东林寺时所立。
+    image_url: ""
+
+  - id: 20
+    title: 西林寺
+    location: 西林寺
+    location_id: null
+    dynasty: 宋
+    author: 苏轼
+    year: "1084"
+    content: |
+      题西林壁
+    style: 行书
+    size: "2m x 1.5m"
+    condition: 保存完好
+    description: 苏轼题西林壁诗刻。
+    image_url: ""

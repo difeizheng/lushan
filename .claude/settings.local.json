@@ -20,7 +20,9 @@
       "Bash(taskkill /F /PID 7904)",
       "Bash(taskkill:*)",
       "Bash(cmd /c \"taskkill /PID 7904 /F\")",
-      "Bash(cmd /c \"netstat -ano | findstr :8503\")"
+      "Bash(cmd /c \"netstat -ano | findstr :8503\")",
+      "Bash(lsof -ti:8503)",
+      "Bash(powershell -Command \"Stop-Process -Id 4576 -Force\")"
     ]
   }
 }
