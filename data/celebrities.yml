@@ -1,0 +1,166 @@
+# 庐山名人数据
+celebrities:
+  - id: 1
+    name: 匡俗
+    dynasty: 殷周
+    profession: 隐士
+    avatar: https://example.com/kuangsu.jpg
+    biography: |
+      相传殷周时期，匡俗兄弟七人在庐山结庐隐居，
+      庐山因此得名"匡庐"。匡俗被尊为庐山隐士文化的鼻祖。
+    relation_to_lushan: 庐山得名来源，在此结庐隐居
+    poems: []
+
+  - id: 2
+    name: 慧远
+    dynasty: 东晋
+    profession: 高僧
+    birth_year: 334
+    death_year: 416
+    avatar: https://example.com/huiyuan.jpg
+    biography: |
+      慧远（334-416），东晋高僧，雁门楼烦人。
+      在庐山创建东林寺，创立佛教净土宗，提出"沙门不敬王者论"。
+      在庐山三十余年，影不出山，迹不入俗，道俗化之。
+    relation_to_lushan: 创建东林寺，开创净土宗，使庐山成为佛教圣地
+    poems:
+      - 庐山东林杂诗
+
+  - id: 3
+    name: 陆修静
+    dynasty: 南朝
+    profession: 道士
+    birth_year: 406
+    death_year: 477
+    avatar: https://example.com/luxiujing.jpg
+    biography: |
+      陆修静（406-477），南朝宋齐时期著名道士，吴兴东迁人。
+      在庐山简寂观修道，整理道教经典，对道教发展影响深远。
+    relation_to_lushan: 在庐山修道，使庐山成为道教圣地之一
+    poems: []
+
+  - id: 4
+    name: 陶渊明
+    dynasty: 东晋
+    profession: 诗人
+    birth_year: 365
+    death_year: 427
+    avatar: https://example.com/taoyuanming.jpg
+    biography: |
+      陶渊明（365-427），字渊明，浔阳柴桑（今江西九江）人。
+      东晋著名诗人，田园诗派创始人。
+      代表作有《归园田居》《饮酒》《桃花源记》等。
+    relation_to_lushan: 九江人，"采菊东篱下，悠然见南山"中的南山即指庐山
+    poems:
+      - 饮酒·其五
+      - 归园田居
+
+  - id: 5
+    name: 李白
+    dynasty: 唐
+    profession: 诗人
+    birth_year: 701
+    death_year: 762
+    avatar: https://example.com/libai.jpg
+    biography: |
+      李白（701-762），字太白，号青莲居士，唐代伟大浪漫主义诗人。
+      被后人誉为"诗仙"，与杜甫并称"李杜"。
+    relation_to_lushan: 曾五次游庐山，留下多首名篇，最著名的是《望庐山瀑布》
+    poems:
+      - 望庐山瀑布
+      - 庐山谣寄卢侍御虚舟
+
+  - id: 6
+    name: 白居易
+    dynasty: 唐
+    profession: 诗人
+    birth_year: 772
+    death_year: 846
+    avatar: https://example.com/baijuyi.jpg
+    biography: |
+      白居易（772-846），字乐天，号香山居士，唐代伟大现实主义诗人。
+      曾任江州司马，在庐山筑草堂隐居。
+    relation_to_lushan: 任江州司马时在庐山隐居，著《大林寺桃花》《庐山草堂记》
+    poems:
+      - 大林寺桃花
+      - 庐山草堂记
+
+  - id: 7
+    name: 苏轼
+    dynasty: 宋
+    profession: 文学家
+    birth_year: 1037
+    death_year: 1101
+    avatar: https://example.com/sushi.jpg
+    biography: |
+      苏轼（1037-1101），字子瞻，号东坡居士，北宋文学家、书法家、画家。
+      "唐宋八大家"之一，其诗、词、文、书、画皆工。
+    relation_to_lushan: 游庐山作《题西林壁》，"不识庐山真面目"成为千古名句
+    poems:
+      - 题西林壁
+
+  - id: 8
+    name: 朱熹
+    dynasty: 南宋
+    profession: 理学家
+    birth_year: 1130
+    death_year: 1200
+    avatar: https://example.com/zhuxi.jpg
+    biography: |
+      朱熹（1130-1200），字元晦，号晦庵，南宋理学家、教育家。
+      理学集大成者，世称"朱子"。
+    relation_to_lushan: 在白鹿洞书院讲学，制定《白鹿洞书院揭示》，影响深远
+    poems: []
+
+  - id: 9
+    name: 谢灵运
+    dynasty: 南朝
+    profession: 诗人
+    birth_year: 385
+    death_year: 433
+    avatar: https://example.com/xielyun.jpg
+    biography: |
+      谢灵运（385-433），南朝宋诗人，开创山水诗派。
+      其诗描写山水景物，对后世影响深远。
+    relation_to_lushan: 曾游庐山，留有诗篇
+    poems: []
+
+  - id: 10
+    name: 欧阳修
+    dynasty: 北宋
+    profession: 文学家
+    birth_year: 1007
+    death_year: 1072
+    avatar: https://example.com/ouyangxiu.jpg
+    biography: |
+      欧阳修（1007-1072），字永叔，号醉翁，北宋文学家、史学家。
+      "唐宋八大家"之一，北宋文坛领袖。
+    relation_to_lushan: 曾游庐山并留下诗文
+    poems: []
+
+  - id: 11
+    name: 陆游
+    dynasty: 南宋
+    profession: 诗人
+    birth_year: 1125
+    death_year: 1210
+    avatar: https://example.com/luyou.jpg
+    biography: |
+      陆游（1125-1210），字务观，号放翁，南宋爱国诗人。
+      一生创作诗歌近万首，内容丰富。
+    relation_to_lushan: 有《游庐山记》等作品
+    poems: []
+
+  - id: 12
+    name: 毛泽东
+    dynasty: 现代
+    profession: 政治家、诗人
+    birth_year: 1893
+    death_year: 1976
+    avatar: https://example.com/maozedong.jpg
+    biography: |
+      毛泽东（1893-1976），伟大的马克思主义者，无产阶级革命家、战略家和理论家。
+      同时也是一位诗人，留下许多优秀诗篇。
+    relation_to_lushan: 1959 年、1961 年、1970 年三次在庐山主持会议，作《七律·登庐山》
+    poems:
+      - 七律·登庐山

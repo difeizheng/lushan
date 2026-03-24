@@ -1,0 +1,106 @@
+# 庐山住宿推荐
+hotels:
+  - id: 1
+    name: 庐山大酒店
+    category: 高档酒店
+    price_range: ¥¥¥
+    avg_price: 680
+    address: 牯岭镇正街 1 号
+    description: |
+      庐山最具历史底蕴的酒店之一，始建于 1953 年。
+      曾接待过多位国家领导人，环境优雅，服务一流。
+    amenities: [WiFi, 停车场，餐厅，会议室，健身房]
+    rating: 4.6
+    location:
+      lat: 29.5680
+      lng: 115.9850
+    phone: 0792-828xxxx
+
+  - id: 2
+    name: 牯岭民宿
+    category: 民宿
+    price_range: ¥¥
+    avg_price: 280
+    address: 牯岭镇西街
+    description: |
+      温馨舒适的民宿，老板热情好客。
+      可提供旅游咨询和接送服务。
+    amenities: [WiFi, 空调，热水，洗衣机]
+    rating: 4.5
+    location:
+      lat: 29.5675
+      lng: 115.9830
+    phone: 138xxxxxxx
+
+  - id: 3
+    name: 云海客栈
+    category: 客栈
+    price_range: ¥¥
+    avg_price: 320
+    address: 牯岭镇东谷
+    description: |
+      位于东谷景区，部分房间可观赏云海。
+      建筑风格古朴，环境清幽。
+    amenities: [WiFi, 餐厅，茶园，观景台]
+    rating: 4.4
+    location:
+      lat: 29.5655
+      lng: 115.9870
+    phone: 0792-828xxxx
+
+  - id: 4
+    name: 青年旅舍
+    category: 青旅
+    price_range: ¥
+    avg_price: 80
+    address: 牯岭镇老街
+    description: |
+      经济实惠的青年旅舍，适合背包客和学生。
+      多人间和单人间可选，氛围轻松。
+    amenities: [WiFi, 公共厨房，洗衣房，行李寄存]
+    rating: 4.2
+    location:
+      lat: 29.5670
+      lng: 115.9840
+    phone: 0792-828xxxx
+
+  - id: 5
+    name: 如琴湖度假村
+    category: 度假村
+    price_range: ¥¥¥¥
+    avg_price: 980
+    address: 如琴湖畔
+    description: |
+      位于如琴湖畔，环境绝佳。
+      豪华套房和别墅可选，适合度假休闲。
+    amenities: [WiFi, 停车场，餐厅，SPA, 湖景房]
+    rating: 4.8
+    location:
+      lat: 29.5683
+      lng: 115.9750
+    phone: 0792-828xxxx
+
+  - id: 6
+    name: 白鹿洞书院宾馆
+    category: 宾馆
+    price_range: ¥¥
+    avg_price: 220
+    address: 白鹿洞书院附近
+    description: |
+      靠近白鹿洞书院，文化氛围浓厚。
+      房间整洁，性价比高。
+    amenities: [WiFi, 停车场，餐厅]
+    rating: 4.3
+    location:
+      lat: 29.4950
+      lng: 116.0450
+    phone: 0792-828xxxx
+
+# 住宿分类说明
+categories:
+  高档酒店：设施完善，服务一流，价格较高
+  民宿：家庭式经营，温馨舒适
+  客栈：特色住宿，环境优美
+  青旅：经济实惠，适合年轻人
+  度假村：豪华设施，度假休闲
+  宾馆：标准配置，性价比高

@@ -1,0 +1,105 @@
+# 庐山美食推荐
+restaurants:
+  - id: 1
+    name: 牯岭正街餐厅
+    category: 赣菜
+    price_range: ¥¥
+    avg_price: 60
+    address: 牯岭镇正街
+    description: |
+      地道的赣菜餐厅，招牌菜有庐山石鸡、石耳炒肉、笋干烧肉等。
+      食材新鲜，味道正宗，价格实惠。
+    signature_dishes: [庐山石鸡，石耳炒肉，笋干烧肉，鄱阳湖鱼头]
+    rating: 4.5
+    location:
+      lat: 29.5683
+      lng: 115.9850
+    opening_hours: 10:00-21:00
+
+  - id: 2
+    name: 锦绣谷农家菜
+    category: 农家菜
+    price_range: ¥
+    avg_price: 45
+    address: 牯岭镇锦绣路
+    description: |
+      农家乐风格，主打山野菜和土特产。
+      推荐尝试竹筒饭、野菜炒蛋、土鸡汤。
+    signature_dishes: [竹筒饭，野菜炒蛋，土鸡汤，腊肉炒蕨菜]
+    rating: 4.3
+    location:
+      lat: 29.5690
+      lng: 115.9840
+    opening_hours: 09:00-20:00
+
+  - id: 3
+    name: 云海酒楼
+    category: 中高档
+    price_range: ¥¥¥
+    avg_price: 120
+    address: 牯岭镇东谷
+    description: |
+      环境优雅，可俯瞰云海。
+      主打精品赣菜和创意菜，适合商务宴请。
+    signature_dishes: [鄱阳湖大闸蟹，庐山云雾茶虾，石鱼烩豆腐]
+    rating: 4.7
+    location:
+      lat: 29.5650
+      lng: 115.9860
+    opening_hours: 11:00-22:00
+
+  - id: 4
+    name: 老街坊小吃
+    category: 小吃
+    price_range: ¥
+    avg_price: 25
+    address: 牯岭镇老街
+    description: |
+      老字号小吃店，主营庐山特色小吃。
+      推荐萝卜饼、糯米鸡、豆腐脑。
+    signature_dishes: [萝卜饼，糯米鸡，豆腐脑，糊羹]
+    rating: 4.4
+    location:
+      lat: 29.5675
+      lng: 115.9835
+    opening_hours: 07:00-19:00
+
+  - id: 5
+    name: 望江楼餐厅
+    category: 赣菜
+    price_range: ¥¥
+    avg_price: 70
+    address: 含鄱口景区附近
+    description: |
+      位于含鄱口景区附近，观景位置佳。
+      看完日出后可以来这里用餐。
+    signature_dishes: [石鱼爆蛋，土豆烧牛肉，清炒时蔬]
+    rating: 4.2
+    location:
+      lat: 29.5250
+      lng: 116.0400
+    opening_hours: 06:00-14:00
+
+  - id: 6
+    name: 东林素斋
+    category: 素斋
+    price_range: ¥¥
+    avg_price: 50
+    address: 东林寺内
+    description: |
+      东林寺内的素斋餐厅，提供正宗佛教素斋。
+      菜品精致，口味清淡，健康养生。
+    signature_dishes: [罗汉斋，素烧鹅，素面，豆腐煲]
+    rating: 4.6
+    location:
+      lat: 29.5950
+      lng: 115.9350
+    opening_hours: 08:00-16:00
+
+# 美食分类说明
+categories:
+  赣菜：江西本地菜系，口味偏辣偏咸
+  农家菜：山野农家风味，食材新鲜
+  中高档：环境优雅，适合宴请
+  小吃：特色小吃，价格实惠
+  素斋：佛教素食，清淡养生

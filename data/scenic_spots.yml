@@ -1,0 +1,289 @@
+# 庐山景点数据
+scenic_spots:
+  - id: 1
+    name: 三叠泉
+    category: 自然景观
+    subcategory: 瀑布
+    altitude: 830
+    description: |
+      三叠泉位于庐山东南，瀑布分三级跌落，总落差达 155 米。
+      第一叠从五老峰峰顶直落，第二叠弯曲蜿蜒，第三叠直泻龙潭。
+      被誉为"庐山第一奇观"，有"不到三叠泉，不算庐山客"之说。
+    location:
+      lat: 29.5267
+      lng: 116.0633
+    tags: [瀑布，奇观，必游]
+    image: https://images.unsplash.com/photo-1548685913-fe6678b48e98?w=800
+    visiting_time: 2-3 小时
+    difficulty: 中等
+    opening_hours: 07:00-18:00
+    ticket_price: 64
+    best_season: [夏季，秋季]
+
+  - id: 2
+    name: 五老峰
+    category: 自然景观
+    subcategory: 山峰
+    altitude: 1436
+    description: |
+      五老峰由五座山峰并列组成，如五位老人席地而坐，故得此名。
+      峰峦叠嶂，气势雄伟，是庐山观日出的绝佳地点之一。
+    location:
+      lat: 29.5417
+      lng: 116.0533
+    tags: [山峰，日出，观景]
+    image: https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800
+    visiting_time: 2-3 小时
+    difficulty: 较难
+    opening_hours: 06:00-19:00
+    ticket_price: 0
+    best_season: [春季，秋季，冬季]
+
+  - id: 3
+    name: 锦绣谷
+    category: 自然景观
+    subcategory: 峡谷
+    altitude: 1000
+    description: |
+      锦绣谷位于庐山西部，是一条长约 1.5 公里的峡谷。
+      因四季花开如锦而得名，沿途怪石嶙峋，景色秀美。
+    location:
+      lat: 29.5683
+      lng: 115.9683
+    tags: [峡谷，花海，徒步]
+    image: https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800
+    visiting_time: 1-2 小时
+    difficulty: 简单
+    opening_hours: 07:00-18:00
+    ticket_price: 0
+    best_season: [春季，夏季]
+
+  - id: 4
+    name: 仙人洞
+    category: 自然景观
+    subcategory: 溶洞
+    altitude: 1100
+    description: |
+      仙人洞位于锦绣谷中段，是一处天然石洞。
+      相传吕洞宾曾在此修仙，毛泽东曾题诗"天生一个仙人洞，无限风光在险峰"。
+    location:
+      lat: 29.5700
+      lng: 115.9700
+    tags: [溶洞，道教，打卡]
+    image: https://images.unsplash.com/photo-1518182170546-0766be6fec56?w=800
+    visiting_time: 30 分钟 -1 小时
+    difficulty: 简单
+    opening_hours: 07:00-18:00
+    ticket_price: 0
+    best_season: [全年]
+
+  - id: 5
+    name: 含鄱口
+    category: 自然景观
+    subcategory: 观景台
+    altitude: 1200
+    description: |
+      含鄱口位于庐山东南部，是观赏鄱阳湖和日出的最佳位置。
+      清晨可观云海日出，气象万千，令人心旷神怡。
+    location:
+      lat: 29.5250
+      lng: 116.0400
+    tags: [日出，云海，鄱阳湖]
+    image: https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=800
+    visiting_time: 1 小时
+    difficulty: 简单
+    opening_hours: 05:00-19:00
+    ticket_price: 0
+    best_season: [秋季，冬季]
+
+  - id: 6
+    name: 如琴湖
+    category: 自然景观
+    subcategory: 湖泊
+    altitude: 1050
+    description: |
+      如琴湖位于庐山牯岭西侧，因湖面形状如琴而得名。
+      湖畔花径相传是白居易咏桃花之处，湖光山色，景色宜人。
+    location:
+      lat: 29.5683
+      lng: 115.9750
+    tags: [湖泊，休闲，摄影]
+    image: https://images.unsplash.com/photo-1439066615861-d1af74d74000?w=800
+    visiting_time: 1 小时
+    difficulty: 简单
+    opening_hours: 06:00-20:00
+    ticket_price: 0
+    best_season: [春季，夏季，秋季]
+
+  - id: 7
+    name: 花径
+    category: 人文景观
+    subcategory: 历史遗迹
+    altitude: 1050
+    description: |
+      花径是白居易《大林寺桃花》的创作地。
+      "人间四月芳菲尽，山寺桃花始盛开"，园内桃花盛开时，景色迷人。
+    location:
+      lat: 29.5690
+      lng: 115.9760
+    tags: [诗词，桃花，历史]
+    image: https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800
+    visiting_time: 30 分钟 -1 小时
+    difficulty: 简单
+    opening_hours: 07:00-18:00
+    ticket_price: 0
+    best_season: [春季]
+
+  - id: 8
+    name: 美庐
+    category: 人文景观
+    subcategory: 历史建筑
+    altitude: 1100
+    description: |
+      美庐位于牯岭东谷，原为英国人所建别墅。
+      1930-1940 年代，蒋介石和宋美龄曾在此避暑居住。
+      1959 年庐山会议期间，毛泽东也曾居住于此。
+    location:
+      lat: 29.5650
+      lng: 115.9850
+    tags: [历史，别墅，国共]
+    image: https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800
+    visiting_time: 30 分钟 -1 小时
+    difficulty: 简单
+    opening_hours: 08:00-17:30
+    ticket_price: 0
+    best_season: [全年]
+
+  - id: 9
+    name: 庐山会议旧址
+    category: 人文景观
+    subcategory: 历史遗迹
+    altitude: 1150
+    description: |
+      1959 年、1961 年、1970 年三次庐山会议会址。
+      现辟为纪念馆，展示会议相关历史资料，在中国现代史上具有重要地位。
+    location:
+      lat: 29.5630
+      lng: 115.9820
+    tags: [历史，会议，红色旅游]
+    image: https://images.unsplash.com/photo-1555854877-bab0e5a4b15f?w=800
+    visiting_time: 1-2 小时
+    difficulty: 简单
+    opening_hours: 08:00-17:00
+    ticket_price: 0
+    best_season: [全年]
+
+  - id: 10
+    name: 东林寺
+    category: 宗教建筑
+    subcategory: 佛教
+    altitude: 300
+    description: |
+      东林寺位于庐山西北麓，东晋慧远所建，始建于公元 386 年。
+      中国佛教净土宗发源地，在日本、东南亚有深远影响。
+    location:
+      lat: 29.5950
+      lng: 115.9350
+    tags: [佛教，古刹，净土宗]
+    image: https://images.unsplash.com/photo-1599827364831-3a6040793248?w=800
+    visiting_time: 1-2 小时
+    difficulty: 简单
+    opening_hours: 06:00-18:00
+    ticket_price: 0
+    best_season: [全年]
+
+  - id: 11
+    name: 白鹿洞书院
+    category: 人文景观
+    subcategory: 教育遗址
+    altitude: 400
+    description: |
+      白鹿洞书院位于庐山五老峰南麓，始建于南唐。
+      宋代四大书院之首，朱熹曾在此讲学，制定《白鹿洞书院揭示》。
+      是中国古代教育的重要遗址。
+    location:
+      lat: 29.4950
+      lng: 116.0450
+    tags: [书院，教育，朱熹]
+    image: https://images.unsplash.com/photo-1580477667995-2b94f01c9516?w=800
+    visiting_time: 1-2 小时
+    difficulty: 简单
+    opening_hours: 08:00-17:30
+    ticket_price: 40
+    best_season: [春季，秋季]
+
+  - id: 12
+    name: 汉阳峰
+    category: 自然景观
+    subcategory: 山峰
+    altitude: 1474
+    description: |
+      汉阳峰是庐山最高峰，海拔 1474 米。
+      登顶可俯瞰长江，远眺武汉，是庐山之巅。
+    location:
+      lat: 29.5500
+      lng: 115.9900
+    tags: [最高峰，登高，观景]
+    image: https://images.unsplash.com/photo-1516483638259-33a58110582c?w=800
+    visiting_time: 3-4 小时
+    difficulty: 较难
+    opening_hours: 06:00-18:00
+    ticket_price: 0
+    best_season: [秋季，冬季]
+
+  - id: 13
+    name: 石门涧
+    category: 自然景观
+    subcategory: 峡谷
+    altitude: 900
+    description: |
+      石门涧位于庐山西南部，是庐山最早开发的景区之一。
+      以雄奇险峻著称，有"庐山第一景"之美誉。
+    location:
+      lat: 29.5400
+      lng: 115.9500
+    tags: [峡谷，险峰，瀑布]
+    image: https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=800
+    visiting_time: 2-3 小时
+    difficulty: 中等
+    opening_hours: 07:00-17:30
+    ticket_price: 50
+    best_season: [春季，夏季]
+
+  - id: 14
+    name: 庐山植物园
+    category: 自然景观
+    subcategory: 植物园
+    altitude: 1200
+    description: |
+      庐山植物园创建于 1934 年，是中国第一座亚高山植物园。
+      收集有国内外植物 3000 余种，是科研科普的重要基地。
+    location:
+      lat: 29.5450
+      lng: 116.0350
+    tags: [植物，科普，休闲]
+    image: https://images.unsplash.com/photo-1463946267839-23d6a724007e?w=800
+    visiting_time: 1-2 小时
+    difficulty: 简单
+    opening_hours: 08:00-17:00
+    ticket_price: 50
+    best_season: [春季，夏季，秋季]
+
+  - id: 15
+    name: 观音桥
+    category: 人文景观
+    subcategory: 古建筑
+    altitude: 300
+    description: |
+      观音桥建于北宋，是中国最早的石拱桥之一。
+      桥身横跨峡谷，造型优美，具有极高的历史和艺术价值。
+    location:
+      lat: 29.4850
+      lng: 116.0550
+    tags: [古桥，建筑，历史]
+    image: https://images.unsplash.com/photo-1558005232-8398388e3dd4?w=800
+    visiting_time: 30 分钟 -1 小时
+    difficulty: 简单
+    opening_hours: 08:00-17:00
+    ticket_price: 30
+    best_season: [全年]

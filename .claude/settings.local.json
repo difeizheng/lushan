@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:zh.wikipedia.org)",
+      "WebFetch(domain:baike.baidu.com)",
+      "WebFetch(domain:www.gov.cn)",
+      "WebFetch(domain:www.sohu.com)",
+      "WebFetch(domain:www.chinanews.com.cn)",
+      "Bash(dir:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import yaml; print\\(''依赖检查通过''\\)\")",
+      "Bash(streamlit run:*)",
+      "Bash(start:*)",
+      "Bash(python:*)",
+      "Bash(set PYTHONIOENCODING=utf-8)",
+      "Bash(streamlit stop:*)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :8503)",
+      "Bash(taskkill /F /PID 7904)",
+      "Bash(taskkill:*)",
+      "Bash(cmd /c \"taskkill /PID 7904 /F\")",
+      "Bash(cmd /c \"netstat -ano | findstr :8503\")"
+    ]
+  }
+}

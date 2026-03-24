@@ -1,0 +1,239 @@
+# 庐山游览路线数据
+routes:
+  - id: 1
+    name: 经典一日游
+    type: 预设路线
+    duration: 1 天
+    difficulty: 简单
+    description: |
+      适合时间有限的游客，涵盖庐山最核心的景点。
+      早上抵达后游览牯岭周边景点，下午前往三叠泉。
+    spots:
+      - name: 如琴湖
+        spot_id: 6
+        duration: 30 分钟
+        note: 欣赏湖光山色
+      - name: 花径
+        spot_id: 7
+        duration: 30 分钟
+        note: 白居易咏桃花处
+      - name: 锦绣谷
+        spot_id: 3
+        duration: 1 小时
+        note: 徒步观景
+      - name: 仙人洞
+        spot_id: 4
+        duration: 30 分钟
+        note: 毛泽东题诗处
+      - name: 三叠泉
+        spot_id: 1
+        duration: 2-3 小时
+        note: 庐山第一奇观
+    tips: |
+      - 建议早点出发，三叠泉需要较多时间
+      - 穿舒适的步行鞋
+      - 带上雨具，山上天气多变
+
+  - id: 2
+    name: 精华二日游
+    type: 预设路线
+    duration: 2 天
+    difficulty: 简单
+    description: |
+      适合周末出游，可以更从容地游览庐山精华景点。
+      第一天游览西线和北线，第二天前往东线。
+    spots:
+      - name: 第一天
+        spot_id: null
+        duration: 全天
+        note: 西线 + 北线
+      - name: 美庐
+        spot_id: 8
+        duration: 1 小时
+        note: 历史别墅
+      - name: 庐山会议旧址
+        spot_id: 9
+        duration: 1 小时
+        note: 红色旅游
+      - name: 如琴湖
+        spot_id: 6
+        duration: 30 分钟
+        note: 湖光山色
+      - name: 锦绣谷
+        spot_id: 3
+        duration: 1 小时
+        note: 徒步
+      - name: 仙人洞
+        spot_id: 4
+        duration: 30 分钟
+        note: 道教圣地
+      - name: 第二天
+        spot_id: null
+        duration: 全天
+        note: 东线
+      - name: 含鄱口
+        spot_id: 5
+        duration: 1 小时
+        note: 观日出、鄱阳湖
+      - name: 五老峰
+        spot_id: 2
+        duration: 2-3 小时
+        note: 登山
+      - name: 三叠泉
+        spot_id: 1
+        duration: 2-3 小时
+        note: 瀑布奇观
+    tips: |
+      - 建议住牯岭镇上
+      - 第二天早点起床看日出
+      - 三叠泉和五老峰体力消耗较大
+
+  - id: 3
+    name: 深度三日游
+    type: 预设路线
+    duration: 3 天
+    difficulty: 中等
+    description: |
+      适合深度游爱好者，除了常规景点，还包括文化景点和周边景点。
+      全面体验庐山的自然风光和人文底蕴。
+    spots:
+      - name: 第一天
+        spot_id: null
+        duration: 全天
+        note: 西线+北线
+      - name: 美庐
+        spot_id: 8
+        duration: 1 小时
+      - name: 庐山会议旧址
+        spot_id: 9
+        duration: 1 小时
+      - name: 如琴湖
+        spot_id: 6
+        duration: 30 分钟
+      - name: 锦绣谷
+        spot_id: 3
+        duration: 1 小时
+      - name: 仙人洞
+        spot_id: 4
+        duration: 30 分钟
+      - name: 第二天
+        spot_id: null
+        duration: 全天
+        note: 东线
+      - name: 含鄱口
+        spot_id: 5
+        duration: 1 小时
+      - name: 五老峰
+        spot_id: 2
+        duration: 2-3 小时
+      - name: 三叠泉
+        spot_id: 1
+        duration: 2-3 小时
+      - name: 汉阳峰
+        spot_id: 12
+        duration: 3-4 小时
+      - name: 第三天
+        spot_id: null
+        duration: 全天
+        note: 文化之旅
+      - name: 东林寺
+        spot_id: 10
+        duration: 1-2 小时
+      - name: 白鹿洞书院
+        spot_id: 11
+        duration: 1-2 小时
+    tips: |
+      - 第三天需要下山，注意返程时间
+      - 东林寺和白鹿洞书院在山下，需要乘车前往
+      - 可以请导游讲解，了解历史文化
+
+  - id: 4
+    name: 诗词文化之旅
+    type: 主题路线
+    duration: 1-2 天
+    difficulty: 简单
+    description: |
+      跟随李白、白居易、苏轼等文人的足迹，
+      探访他们留下诗篇的地方，感受庐山的文化底蕴。
+    spots:
+      - name: 花径
+        spot_id: 7
+        duration: 1 小时
+        note: 白居易《大林寺桃花》
+      - name: 锦绣谷
+        spot_id: 3
+        duration: 1 小时
+        note: 李白等诗人曾游
+      - name: 仙人洞
+        spot_id: 4
+        duration: 30 分钟
+        note: 毛泽东题诗
+      - name: 西林寺遗址
+        spot_id: null
+        duration: 30 分钟
+        note: 苏轼《题西林壁》
+      - name: 白鹿洞书院
+        spot_id: 11
+        duration: 1-2 小时
+        note: 朱熹讲学处
+    tips: |
+      - 建议提前背诵相关诗词
+      - 可携带诗词集对照参观
+      - 适合文化爱好者和学生
+
+  - id: 5
+    name: 宗教文化之旅
+    type: 主题路线
+    duration: 1 天
+    difficulty: 简单
+    description: |
+      探访庐山的佛教、道教圣地，
+      了解宗教文化在庐山的发展历程。
+    spots:
+      - name: 东林寺
+        spot_id: 10
+        duration: 2 小时
+        note: 净土宗祖庭
+      - name: 仙人洞
+        spot_id: 4
+        duration: 1 小时
+        note: 道教圣地
+      - name: 简寂观遗址
+        spot_id: null
+        duration: 30 分钟
+        note: 陆修静修道处
+    tips: |
+      - 寺庙内请保持安静
+      - 可体验素斋
+      - 尊重宗教习俗
+
+  - id: 6
+    name: 登山爱好者路线
+    type: 主题路线
+    duration: 1 天
+    difficulty: 较难
+    description: |
+      适合登山爱好者，挑战庐山主要山峰，
+      欣赏壮丽的山景和日出。
+    spots:
+      - name: 含鄱口
+        spot_id: 5
+        duration: 1 小时
+        note: 观日出
+      - name: 五老峰
+        spot_id: 2
+        duration: 3-4 小时
+        note: 攀登
+      - name: 三叠泉
+        spot_id: 1
+        duration: 2-3 小时
+        note: 瀑布
+      - name: 汉阳峰
+        spot_id: 12
+        duration: 3-4 小时
+        note: 登顶庐山之巅
+    tips: |
+      - 需要较好的体力
+      - 带上足够的饮用水和食物
+      - 注意防晒和防滑
+      - 建议结伴而行
