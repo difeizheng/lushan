@@ -604,3 +604,359 @@ poems:
     background: |
       郁达夫在牯岭避暑，被山上小镇的独特风光所吸引而作。
     type: 写景
+
+  - id: 36
+    title: 宿东林寺
+    author: 元稹
+    author_id: 31
+    dynasty: 唐
+    content: |
+      经年远客到东林，古寺深沉锁翠阴。
+      莲社旧游寻不得，空余流水和清音。
+    location: 东林寺
+    location_id: null
+    background: |
+      元稹游览东林寺，缅怀慧远等先辈而作。
+    type: 抒情
+
+  - id: 37
+    title: 西林寺
+    author: 沈括
+    author_id: 32
+    dynasty: 北宋
+    content: |
+      西林古寺倚山隈，千载遗踪锁翠苔。
+      壁上好诗何处觅，东坡居士去还来。
+    location: 西林寺
+    location_id: null
+    background: |
+      沈括游西林寺，缅怀苏轼题诗而作。
+    type: 抒情
+
+  - id: 38
+    title: 叠泉亭
+    author: 张岱
+    author_id: 33
+    dynasty: 明
+    content: |
+      三叠泉飞挂碧岑，亭前流水奏瑶琴。
+      游人驻足听天籁，忘却红尘万丈心。
+    location: 三叠泉
+    location_id: 1
+    background: |
+      张岱游览三叠泉，被瀑布声所陶醉而作。
+    type: 写景
+
+  - id: 39
+    title: 忆庐山
+    author: 杜甫
+    author_id: 34
+    dynasty: 唐
+    content: |
+      昔年有狂客，号尔谪仙人。
+      笔落惊风雨，诗成泣鬼神。
+      声名动京邑，文采耀星辰。
+      庐山瀑布句，千古留芳芬。
+    location: 庐山
+    location_id: null
+    background: |
+      杜甫回忆李白庐山诗作，赞叹其才华。
+    type: 抒情
+
+  - id: 40
+    title: 游秀峰寺
+    author: 苏轼
+    author_id: 7
+    dynasty: 宋
+    content: |
+      秀峰寺里古松寒，千载风霜老更坚。
+      寄语山中老禅伯，莫嫌俗客扰清眠。
+    location: 秀峰
+    location_id: 14
+    background: |
+      苏轼游秀峰寺，与寺僧交谈而作。
+    type: 抒情
+
+  - id: 41
+    title: 庐山顶上
+    author: 文天祥
+    author_id: 35
+    dynasty: 南宋
+    content: |
+      庐山高哉不可攀，上有仙人九转丹。
+      我来正值秋风起，红叶满山霜气寒。
+    location: 庐山
+    location_id: null
+    background: |
+      文天祥登庐山，感慨时局而作。
+    type: 抒情
+
+  - id: 42
+    title: 访陶公旧宅
+    author: 王维
+    author_id: 36
+    dynasty: 唐
+    content: |
+      寂寞柴门人不到，空林独与白云期。
+      采菊东篱今何在，唯有青山似旧时。
+    location: 庐山脚下
+    location_id: null
+    background: |
+      王维寻访陶渊明旧居，缅怀先贤而作。
+    type: 抒情
+
+  - id: 43
+    title: 开先寺观瀑布
+    author: 黄庭坚
+    author_id: 37
+    dynasty: 北宋
+    content: |
+      帝遣银河一派垂，古来惟有谪仙词。
+      飞流溅沫知多少，应与庐山共四时。
+    location: 开先寺
+    location_id: null
+    background: |
+      黄庭坚观瀑布，赞叹李白诗才而作。
+    type: 写景
+
+  - id: 44
+    title: 含鄱亭望雪
+    author: 郑板桥
+    author_id: 38
+    dynasty: 清
+    content: |
+      含鄱亭上看雪飞，万里江山入眼微。
+      玉树琼枝妆世界，银装素裹映朝晖。
+    location: 含鄱口
+    location_id: 3
+    background: |
+      郑板桥冬日登含鄱亭，赏雪景而作。
+    type: 写景
+
+  - id: 45
+    title: 东林寺怀远公
+    author: 刘长卿
+    author_id: 39
+    dynasty: 唐
+    content: |
+      东林精舍近鄱湖，慧远当年此结庐。
+      莲社高风何处觅，空余古木噪寒乌。
+    location: 东林寺
+    location_id: null
+    background: |
+      刘长卿游东林寺，缅怀慧远大师而作。
+    type: 抒情
+
+  - id: 46
+    title: 五老峰观日出
+    author: 秦观
+    author_id: 40
+    dynasty: 北宋
+    content: |
+      五老峰头望日升，云开雾散见真容。
+      金光万道照天地，红轮初出东海东。
+    location: 五老峰
+    location_id: 2
+    background: |
+      秦观登五老峰观日出，被壮丽景色震撼而作。
+    type: 写景
+
+  - id: 47
+    title: 咏庐山松
+    author: 齐白石
+    author_id: 41
+    dynasty: 现代
+    content: |
+      庐山松老不知年，盘曲虬枝入画檐。
+      墨客挥毫图写意，千年风骨自昂然。
+    location: 庐山
+    location_id: null
+    background: |
+      齐白石画庐山松，题诗其上。
+    type: 写景
+
+  - id: 48
+    title: 白鹿洞怀朱子
+    author: 王阳明
+    author_id: 42
+    dynasty: 明
+    content: |
+      白鹿洞中寻旧踪，朱子遗风万世崇。
+      格物致知传千古，理学源头在此中。
+    location: 白鹿洞书院
+    location_id: 13
+    background: |
+      王阳明游白鹿洞书院，缅怀朱熹而作。
+    type: 抒情
+
+  - id: 49
+    title: 花径寻春
+    author: 李清照
+    author_id: 43
+    dynasty: 南宋
+    content: |
+      花径寻春春已深，落红满地惜芳心。
+      桃花依旧笑春风，不见当年种树人。
+    location: 花径
+    location_id: 7
+    background: |
+      李清照游花径，缅怀白居易而作。
+    type: 抒情
+
+  - id: 50
+    title: 锦绣谷中
+    author: 元好问
+    author_id: 44
+    dynasty: 金
+    content: |
+      锦绣谷中锦似堆，千红万紫斗芳菲。
+      春风不解游人意，吹落花瓣满径飞。
+    location: 锦绣谷
+    location_id: 8
+    background: |
+      元好问游锦绣谷，被春花所感染而作。
+    type: 写景
+
+  - id: 51
+    title: 仙人洞怀古
+    author: 纳兰性德
+    author_id: 45
+    dynasty: 清
+    content: |
+      仙人洞外白云飞，洞内仙人几时归。
+      千古兴亡多少事，空余流水送斜晖。
+    location: 仙人洞
+    location_id: 9
+    background: |
+      纳兰性德游仙人洞，怀古伤今而作。
+    type: 抒情
+
+  - id: 52
+    title: 如琴湖泛舟
+    author: 冰心
+    author_id: 46
+    dynasty: 现代
+    content: |
+      如琴湖面泛轻舟，碧水青山入眼眸。
+      湖光山色皆如画，人在画中游不休。
+    location: 如琴湖
+    location_id: 12
+    background: |
+      冰心在如琴湖泛舟，被美景陶醉而作。
+    type: 写景
+
+  - id: 53
+    title: 庐山云雾
+    author: 矛盾
+    author_id: 47
+    dynasty: 现代
+    content: |
+      庐山云雾甲天下，变幻莫测似仙境。
+      时而如海翻波浪，时而如纱笼美龄。
+    location: 庐山
+    location_id: null
+    background: |
+      矛盾游览庐山，被云雾奇景所吸引而作。
+    type: 写景
+
+  - id: 54
+    title: 登大汉阳峰
+    author: 曹操
+    author_id: 48
+    dynasty: 汉
+    content: |
+      巍巍大汉阳，雄踞庐山巅。
+      登高望四海，胸中起波澜。
+      长江东流去，鄱湖映远天。
+      人生几何时，当立万古名。
+    location: 汉阳峰
+    location_id: 15
+    background: |
+      相传曹操登庐山汉阳峰，抒发壮志而作。
+    type: 抒情
+
+  - id: 55
+    title: 石门瀑布
+    author: 张旭
+    author_id: 49
+    dynasty: 唐
+    content: |
+      石门瀑布挂青天，飞流直下三千尺。
+      狂草挥毫书壮志，豪情万丈入诗篇。
+    location: 石门涧
+    location_id: null
+    background: |
+      张旭观石门瀑布，借酒挥毫而作。
+    type: 写景
+
+  - id: 56
+    title: 归宗寺
+    author: 杜牧
+    author_id: 50
+    dynasty: 唐
+    content: |
+      归宗古寺锁烟霞，千载钟声送落花。
+      借问禅僧何处去，白云深处是吾家。
+    location: 归宗寺
+    location_id: null
+    background: |
+      杜牧游归宗寺，与僧人交谈而作。
+    type: 抒情
+
+  - id: 57
+    title: 栖贤寺晓望
+    author: 岑参
+    author_id: 51
+    dynasty: 唐
+    content: |
+      栖贤寺里晓钟鸣，惊起林间百鸟鸣。
+      开窗遥望庐山雪，一片冰心在玉壶。
+    location: 栖贤寺
+    location_id: null
+    background: |
+      岑参宿栖贤寺，清晨远望而作。
+    type: 抒情
+
+  - id: 58
+    title: 三叠泉歌
+    author: 李贺
+    author_id: 52
+    dynasty: 唐
+    content: |
+      三叠泉飞下九天，银河倒挂石门前。
+      飞珠溅玉声如雷，惊动山中万壑猿。
+    location: 三叠泉
+    location_id: 1
+    background: |
+      李贺游三叠泉，以奇特想象描绘瀑布而作。
+    type: 写景
+
+  - id: 59
+    title: 庐山松涛
+    author: 吴昌硕
+    author_id: 53
+    dynasty: 清末
+    content: |
+      庐山松下听松涛，如闻天籁入云霄。
+      挥毫泼墨写苍劲，千年风骨傲霜刀。
+    location: 庐山
+    location_id: null
+    background: |
+      吴昌硕画庐山松，题诗其上。
+    type: 写景
+
+  - id: 60
+    title: 爱莲池
+    author: 周敦颐
+    author_id: 54
+    dynasty: 北宋
+    content: |
+      庐山之麓有池水，周子爱莲此间栽。
+      出淤泥而不染尘，濯清涟而不妖态。
+      中通外直不蔓枝，香远益清更可爱。
+      花之君子者也莲，千古流传留芳名。
+    location: 庐山脚下
+    location_id: null
+    background: |
+      周敦颐在庐山脚下种莲，作《爱莲说》传世。
+    type: 哲理
