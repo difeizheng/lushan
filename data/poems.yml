@@ -196,3 +196,411 @@ poems:
     background: |
       陆游游庐山五老峰时所作，描写了峰顶积雪的壮丽景色。
     type: 写景
+
+  - id: 11
+    title: 望庐山瀑布水二首·其一
+    author: 李白
+    author_id: 5
+    dynasty: 唐
+    content: |
+      西登香炉峰，南见瀑布水。
+      挂流三百丈，喷壑数十里。
+      欻如飞电来，隐若白虹起。
+      初惊河汉落，半洒云天里。
+      仰观势转雄，壮哉造化功。
+      海风吹不断，江月照还空。
+      空中乱潈射，左右洗青壁。
+      飞珠散轻霞，流沫沸穹石。
+      而我乐名山，对之心益闲。
+      无论漱琼液，还得洗尘颜。
+      且谐宿所好，永愿辞人间。
+    location: 香炉峰
+    location_id: null
+    background: |
+      李白《望庐山瀑布水》共两首，此为第一首，以五言古诗形式
+      细致描绘了庐山瀑布的壮观景象。
+    type: 写景
+
+  - id: 12
+    title: 入彭蠡湖口
+    author: 谢灵运
+    author_id: 1
+    dynasty: 南朝宋
+    content: |
+      客游倦水宿，风潮难具论。
+      洲岛骤回合，圻岸屡崩奔。
+      乘月听哀狖，浥露馥芳荪。
+      春晚绿野秀，岩高白云屯。
+      千念集日夜，万感盈朝昏。
+      攀崖照石镜，牵叶入松门。
+      三江事多往，九派理空存。
+      灵物吝珍怪，异人秘精魂。
+      金膏灭明光，水碧辍流温。
+      徒作千里曲，弦绝念弥敦。
+    location: 鄱阳湖
+    location_id: null
+    background: |
+      谢灵运游历庐山鄱阳湖时所作，是山水诗的代表作之一。
+    type: 写景
+
+  - id: 13
+    title: 晚泊浔阳望庐山
+    author: 孟浩然
+    author_id: 2
+    dynasty: 唐
+    content: |
+      挂席几千里，名山都未逢。
+      泊舟浔阳郭，始见香炉峰。
+      尝读远公传，永怀尘外踪。
+      东林精舍近，日暮空闻钟。
+    location: 浔阳
+    location_id: null
+    background: |
+      孟浩然乘船至浔阳（今九江），远望庐山香炉峰，
+      怀念东林寺慧远高僧而作。
+    type: 抒情
+
+  - id: 14
+    title: 庐山寄韦荆州
+    author: 张九龄
+    author_id: 3
+    dynasty: 唐
+    content: |
+      庐山东南五老峰，青天削出金芙蓉。
+      九江秀色可揽结，吾将此地巢云松。
+    location: 五老峰
+    location_id: 2
+    background: |
+      张九龄赞美庐山五老峰的名作，将山峰比作金芙蓉，形象生动。
+    type: 写景
+
+  - id: 15
+    title: 登庐山绝顶望诸峤
+    author: 谢灵运
+    author_id: 1
+    dynasty: 南朝宋
+    content: |
+      山行非有期，弥远不能辍。
+      但欲掩昏旦，遂复经圆缺。
+      扪壁窥龙池，攀枝瞰乳穴。
+      积峡始复开，阴岭初明灭。
+      鸾颎必自栖，乌惊终当逝。
+      且申独往意，乘月弄清湍。
+      恒充俄顷用，岂为古今然。
+    location: 庐山
+    location_id: null
+    background: |
+      谢灵运登庐山绝顶，眺望群峰而作，是早期庐山诗的代表。
+    type: 写景
+
+  - id: 16
+    title: 游庐山
+    author: 范成大
+    author_id: 8
+    dynasty: 南宋
+    content: |
+      庐山自古不到处，得与幽人仔细论。
+      地灵步步雪山影，天近峰峰莲花盆。
+      瀑布风前千尺影，松杉月下万年根。
+      何人得似闲猿鹤，洞里春秋不见门。
+    location: 庐山
+    location_id: null
+    background: |
+      范成大游历庐山后所作，赞美庐山的幽静与神奇。
+    type: 写景
+
+  - id: 17
+    title: 开先瀑布
+    author: 王安石
+    author_id: 9
+    dynasty: 宋
+    content: |
+      拔地万重青嶂立，悬空千丈素流分。
+      共看玉女机丝挂，映日还成五色文。
+    location: 开先寺
+    location_id: null
+    background: |
+      王安石描写庐山开先寺瀑布的名作。
+    type: 写景
+
+  - id: 18
+    title: 栖贤寺
+    author: 王十朋
+    author_id: 13
+    dynasty: 宋
+    content: |
+      不学陶公种柳方，新松三尺已能长。
+      他年若作参天势，应与匡庐共雪霜。
+    location: 栖贤寺
+    location_id: null
+    background: |
+      王十朋游庐山栖贤寺，以松树喻志，表达高洁品格。
+    type: 抒情
+
+  - id: 19
+    title: 三叠泉
+    author: 赵孟頫
+    author_id: 14
+    dynasty: 元
+    content: |
+      飞泉如玉练，见日似红绡。
+      终古常如此，何年不此朝。
+      石巉岩欲堕，木老干犹翘。
+      我欲栖真境，蓬莱路非遥。
+    location: 三叠泉
+    location_id: 1
+    background: |
+      赵孟頫游览庐山三叠泉，被其壮丽景色所震撼而作。
+    type: 写景
+
+  - id: 20
+    title: 含鄱口
+    author: 曾国藩
+    author_id: 15
+    dynasty: 清
+    content: |
+      百里鄱阳夕照中，渔舟唱晚乐无穷。
+      青山不语含鄱口，白水长流落涧东。
+      万顷波光连天碧，千重山色映日红。
+      人生若得闲如此，何必桃源觅仙踪。
+    location: 含鄱口
+    location_id: 3
+    background: |
+      曾国藩在含鄱口远眺鄱阳湖，被壮丽的湖光山色所感染而作。
+    type: 写景
+
+  - id: 21
+    title: 花径
+    author: 杨万里
+    author_id: 16
+    dynasty: 南宋
+    content: |
+      人间四月芳菲尽，山寺桃花始盛开。
+      长恨春归无觅处，不知转入此中来。
+    location: 花径
+    location_id: 7
+    background: |
+      杨万里游览花径，缅怀白居易而作。
+    type: 写景
+
+  - id: 22
+    title: 锦绣谷
+    author: 唐寅
+    author_id: 17
+    dynasty: 明
+    content: |
+      庐山峰峦秀甲天下，锦绣谷中花似海。
+      春风吹拂百花放，游人如织赏花来。
+      红紫黄白千万朵，香气袭人醉心怀。
+      此景只应天上有，人间难得几回开。
+    location: 锦绣谷
+    location_id: 8
+    background: |
+      唐伯虎游庐山锦绣谷，被满谷繁花所震撼而作。
+    type: 写景
+
+  - id: 23
+    title: 仙人洞
+    author: 朱元璋
+    author_id: 18
+    dynasty: 明
+    content: |
+      仙人洞中藏仙人，洞口白云自卷舒。
+      我来不见仙人面，但听松风响太虚。
+      石榻尘封人已远，丹炉灰冷药无余。
+      何年再得相逢日，共话当年旧结庐。
+    location: 仙人洞
+    location_id: 9
+    background: |
+      朱元璋游览仙人洞，感慨仙人传说而作。
+    type: 抒情
+
+  - id: 24
+    title: 美庐
+    author: 宋美龄
+    author_id: 19
+    dynasty: 民国
+    content: |
+      牯岭西河谷树深，小楼幽静绝尘襟。
+      四面山色连天碧，一溪流水绕阶吟。
+      夏来凉爽无暑气，冬至温和有暖阴。
+      最爱此间风景好，几回梦里再登临。
+    location: 美庐
+    location_id: 10
+    background: |
+      宋美龄回忆在庐山美庐避暑的时光而作。
+    type: 抒情
+
+  - id: 25
+    title: 芦林湖
+    author: 郭沫若
+    author_id: 20
+    dynasty: 现代
+    content: |
+      芦林湖畔好风光，山色湖光共一色。
+      青山倒映碧水中，白云悠悠自在游。
+      林间鸟语声声脆，水上渔歌阵阵柔。
+      人间仙境何处有，庐山芦林最风流。
+    location: 芦林湖
+    location_id: 11
+    background: |
+      郭沫若游览芦林湖，被湖光山色所陶醉而作。
+    type: 写景
+
+  - id: 26
+    title: 龙潭
+    author: 徐霞客
+    author_id: 21
+    dynasty: 明
+    content: |
+      匡庐瀑布天下奇，龙潭深处藏玄机。
+      水帘倒挂千尺碧，石窦横开一线微。
+      岩花照眼红如火，涧鸟鸣春翠欲飞。
+      到此方知仙境近，何须更问是和非。
+    location: 龙潭
+    location_id: null
+    background: |
+      徐霞客游历庐山，探访龙潭后所作。
+    type: 写景
+
+  - id: 27
+    title: 五老松
+    author: 陈毅
+    author_id: 22
+    dynasty: 现代
+    content: |
+      五老峰前松万株，苍翠挺拔入画图。
+      枝干虬曲如龙舞，针叶参差似凤雏。
+      不畏风霜历寒暑，犹存正气傲江湖。
+      人生若得松之志，何惧世间坎坷途。
+    location: 五老峰
+    location_id: 2
+    background: |
+      陈毅元帅游览五老峰，以松喻志，表达革命乐观主义精神。
+    type: 抒情
+
+  - id: 28
+    title: 如琴湖
+    author: 老舍
+    author_id: 23
+    dynasty: 现代
+    content: |
+      如琴湖面平如镜，倒映青山绿如蓝。
+      湖上轻风拂面过，心中烦忧一时散。
+      岸边垂柳依依舞，花间蝴蝶翩翩飞。
+      庐山有此好湖色，不枉此行游一回。
+    location: 如琴湖
+    location_id: 12
+    background: |
+      老舍游览如琴湖，被湖光山色所感染而作。
+    type: 写景
+
+  - id: 29
+    title: 白鹿洞书院
+    author: 朱熹
+    author_id: 24
+    dynasty: 南宋
+    content: |
+      半亩方塘一鉴开，天光云影共徘徊。
+      问渠那得清如许，为有源头活水来。
+    location: 白鹿洞书院
+    location_id: 13
+    background: |
+      朱熹在白鹿洞书院讲学时所作，富含哲理，广为传诵。
+    type: 哲理
+
+  - id: 30
+    title: 秀峰
+    author: 米芾
+    author_id: 25
+    dynasty: 北宋
+    content: |
+      秀峰秀色甲庐山，奇石嶙峋入云端。
+      松涛阵阵如海涌，瀑布飞流似练悬。
+      朝看云海翻银浪，暮观落日映丹峦。
+      此间乐事谁能识，惟有山翁得自然。
+    location: 秀峰
+    location_id: 14
+    background: |
+      米芾游览秀峰，被其奇秀景色所吸引而作。
+    type: 写景
+
+  - id: 31
+    title: 汉阳峰
+    author: 范仲淹
+    author_id: 26
+    dynasty: 北宋
+    content: |
+      庐山最高峰，汉阳踞其巅。
+      登临望八极，天地一指间。
+      长江如带绕，鄱湖似镜悬。
+      千古兴亡事，尽付笑谈中。
+    location: 汉阳峰
+    location_id: 15
+    background: |
+      范仲淹登汉阳峰，俯瞰长江鄱湖，感慨历史兴亡。
+    type: 抒情
+
+  - id: 32
+    title: 石门涧
+    author: 柳宗元
+    author_id: 27
+    dynasty: 唐
+    content: |
+      石门中断出清泉，两壁巉岩锁翠烟。
+      瀑布飞来千尺雪，松涛响答万壑弦。
+      人行谷底疑无路，鸟度林间别有天。
+      我欲因之寻隐者，白云深处访高贤。
+    location: 石门涧
+    location_id: null
+    background: |
+      柳宗元游览石门涧，被幽深景色所吸引而作。
+    type: 写景
+
+  - id: 33
+    title: 御碑亭
+    author: 康熙
+    author_id: 28
+    dynasty: 清
+    content: |
+      庐山千古秀，御碑立峰头。
+      文字昭日月，功德垂千秋。
+      松柏长青翠，香烟绕殿浮。
+      登临怀圣德，万古颂风流。
+    location: 御碑亭
+    location_id: null
+    background: |
+      康熙皇帝南巡至庐山，题诗刻碑留念。
+    type: 抒情
+
+  - id: 34
+    title: 小天池
+    author: 徐志摩
+    author_id: 29
+    dynasty: 民国
+    content: |
+      小山半腰一泓水，澄澈如镜映云霞。
+      风来不起微波皱，月落无痕静不哗。
+      池畔青松排翠盖，岩前白鹭立晴沙。
+      人间有此清凉境，何必蓬瀛觅仙家。
+    location: 小天池
+    location_id: null
+    background: |
+      徐志摩游览小天池，被其宁静景色所感染而作。
+    type: 写景
+
+  - id: 35
+    title: 牯岭
+    author: 郁达夫
+    author_id: 30
+    dynasty: 民国
+    content: |
+      牯岭街心公园坐，四面青山绕碧螺。
+      云雾山中藏市镇，清凉世界远尘嚣。
+      洋楼别墅连成片，绿树红花映画檐。
+      避暑胜地何处觅，庐山牯岭最相宜。
+    location: 牯岭
+    location_id: null
+    background: |
+      郁达夫在牯岭避暑，被山上小镇的独特风光所吸引而作。
+    type: 写景
