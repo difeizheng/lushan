@@ -14,8 +14,22 @@ st.set_page_config(
     page_title="庐山文旅通",
     page_icon="🏞️",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://github.com/difeizheng/lushan',
+        'Report a bug': 'https://github.com/difeizheng/lushan/issues',
+        'About': "# 庐山文旅通 🏞️\n探索匡庐奇秀，感受千年文化"
+    }
 )
+
+# PWA 配置 - 移动端优化
+st.markdown("""
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="theme-color" content="#2E8B57">
+<link rel="manifest" href="/app/static/manifest.json">
+""", unsafe_allow_html=True)
 
 # 数据目录
 DATA_DIR = Path(__file__).parent / "data"
@@ -27,6 +41,45 @@ season_info = get_season_info()
 # 自定义 CSS 样式（根据季节动态变化）
 st.markdown(f"""
 <style>
+    /* 响应式布局 - 移动端优先 */
+    @media (max-width: 768px) {{
+        .main-header {{
+            font-size: 1.8rem !important;
+        }}
+        .sub-header {{
+            font-size: 1rem !important;
+        }}
+        .card {{
+            padding: 15px !important;
+        }}
+        header {{
+            min-height: 4rem !important;
+        }}
+        .stButton > button {{
+            min-height: 44px !important;
+        }}
+    }}
+
+    /* 小屏幕手机 */
+    @media (max-width: 480px) {{
+        .main-header {{
+            font-size: 1.5rem !important;
+        }}
+        .sub-header {{
+            font-size: 0.9rem !important;
+        }}
+        [data-testid="stMetric"] {{
+            font-size: 0.9rem !important;
+        }}
+    }}
+
+    /* PWA 优化 */
+    .stApp {{
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+    }}
+
+    /* 主标题样式 */
     .main-header {{
         font-size: 2.5rem;
         font-weight: bold;
