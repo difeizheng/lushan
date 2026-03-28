@@ -150,9 +150,9 @@ with tab4:
 
     with col2:
         st.markdown("### 冲泡时间")
-        steeping = brewing_guide.get('steeping_time', {})
-        for key, value in steeping.items():
-            st.caption(f"{key}: {value}")
+        steeping = brewing_guide.get('steeping_time', [])
+        for item in steeping:
+            st.caption(item)
 
     st.divider()
     st.markdown("### 🫙 推荐器具")
